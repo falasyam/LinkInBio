@@ -29,14 +29,14 @@ class _HomeState extends State<Home> {
         elevation: 0.4,
         actions: <Widget>[
           Padding(
-            padding: EdgeInsets.only(right: 20.0),
+            padding: EdgeInsets.only(right: 0.5),
             child: IconButton(
               icon: ThemeSwitcher.of(context).isDarkModeOn?Icon(Feather.sun):Icon(Feather.moon),
               onPressed: ()=> ThemeSwitcher.of(context).switchDarkMode(),
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(right: 20.0),
+            padding: EdgeInsets.only(right: 0.8),
             child: FlatButton(
               onPressed: null, 
               child: OutlineButton(
